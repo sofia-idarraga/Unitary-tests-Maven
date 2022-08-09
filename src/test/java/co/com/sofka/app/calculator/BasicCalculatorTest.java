@@ -125,8 +125,8 @@ public class BasicCalculatorTest {
                 () -> first + " * " + second + " should equal " + expectedResult);
     }
 
-    @DisplayName("Testing several multiplications")
-    @ParameterizedTest(name = "{0} * {1} = {2}")
+    @DisplayName("Testing several divisions")
+    @ParameterizedTest(name = "{0} / {1} = {2}")
     @CsvSource({
             "0,    1,   0",
             "4,    2,   2",
